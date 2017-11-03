@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name"></string>
+    <string name="company"><b>PANASONIC</b></string>
+    <string name="product"><b>運転診断アプリ</b></string>
+    <string name="version">Version 0.5</string>
+    <string name="modeCheck">テストモード</string>
+    <string name="checkedstate">START</string>
+    <string name="uncheckedstate">STOP</string>
+    <string name="settings"><b>Setting</b></string>
+    <string name="backActivity">Cancel</string>
+    <string name="save">Save</string>
+    <string name="common">COMMON</string>
+    <string name="sampleInterval">Sample Interval</string>
+    <string name="carModel">Car Model</string>
+    <string name="dataCommunication">Data Communication interval</string>
+    <string name="canAdapter">CAN ADAPTER</string>
+    <string name="adapterIp">CAN Adapter IP</string>
+    <string name="adapterPort">CAN Adapter Port</string>
+    <string name="modeCar">SD1.0</string>
+    <string name="IpAdapter">192.169.0.99</string>
+    <string name="Port">8080</string>
+
+
+
+</resources>

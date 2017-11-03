@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="27sp"
+            android:textColor="@color/noTextColor"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="25dp"
+            android:padding="5dp"
+            android:text="@string/company"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:textColor="@color/noTextColor"
+            android:padding="7dp"
+            android:text="@string/product"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="25dp"
+            android:padding="5dp"
+            android:text="@string/version"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp" />
+
+    <ImageButton
+        android:layout_marginTop="10dp"
+        android:id="@+id/imageView"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:background="@android:color/transparent"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/checkbook" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textColor="@color/noTextColor"
+        android:text="@string/modeCheck"
+        android:textSize="25sp" />
+
+
+    <Switch
+        android:id="@+id/switchCheck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="80dp" />
+
+   <TableLayout
+       android:orientation="horizontal"
+       android:layout_width="wrap_content"
+       android:stretchColumns="*"
+       android:layout_height="wrap_content">
+
+       <TableRow>
+           <Button
+               android:layout_span="3"
+               android:background="@android:color/transparent"/>
+
+           <ImageButton
+
+               android:layout_width="35dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/affectsetting"
+               android:id="@+id/btnSetting"/>
+
+           <Button
+               android:id="@+id/button"
+               android:layout_width="30dp"
+               android:background="@android:color/transparent" />
+
+           <ImageButton
+               android:id="@+id/imageButton"
+               android:layout_width="35dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/effectpast" />
+           <Button
+               android:layout_width="30dp"
+               android:background="@android:color/transparent"/>
+
+           <ImageButton
+               android:id="@+id/btnstart"
+               android:layout_width="35dp"
+               android:layout_height="wrap_content"
+               android:background="@drawable/effectplay" />
+           <Button
+                android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_span="3"
+               android:background="@android:color/transparent"/>
+       </TableRow>
+   </TableLayout>
+
+</LinearLayout>
