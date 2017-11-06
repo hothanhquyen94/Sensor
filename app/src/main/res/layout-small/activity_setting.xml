@@ -55,7 +55,6 @@
             android:layout_marginLeft="@dimen/layout_marginRight"
             android:text="@string/common"
             android:gravity="bottom"
-            android:textSize="@dimen/sizeText"
             android:padding="@dimen/paddingText"
             android:layout_width="wrap_content"
             android:layout_height="60dp" />
@@ -155,7 +154,6 @@
             android:text="@string/canAdapter"
             android:gravity="bottom"
             android:padding="@dimen/paddingText"
-            android:textSize="@dimen/sizeText"
             android:layout_width="wrap_content"
             android:layout_height="60dp" />
 

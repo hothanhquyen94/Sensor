@@ -8,7 +8,7 @@
         android:id="@+id/toolbarSetting"
         android:layout_width="match_parent"
         android:background="@color/colorToobar"
-        android:layout_height="58dp"
+        android:layout_height="70dp"
         android:minHeight="?attr/actionBarSize">
         <LinearLayout
             android:layout_width="match_parent"
@@ -54,8 +54,8 @@
         <TextView
             android:layout_marginLeft="@dimen/layout_marginRight"
             android:text="@string/common"
-            android:gravity="bottom"
             android:textSize="@dimen/sizeText"
+            android:gravity="bottom"
             android:padding="@dimen/paddingText"
             android:layout_width="wrap_content"
             android:layout_height="60dp" />
@@ -148,16 +148,17 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:background="@color/background"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:background="@color/background">
+
         <TextView
-            android:layout_marginLeft="@dimen/layout_marginRight"
-            android:text="@string/canAdapter"
-            android:gravity="bottom"
-            android:padding="@dimen/paddingText"
-            android:textSize="@dimen/sizeText"
             android:layout_width="wrap_content"
-            android:layout_height="60dp" />
+            android:layout_height="60dp"
+            android:layout_marginLeft="@dimen/layout_marginRight"
+            android:gravity="bottom"
+            android:textSize="@dimen/sizeText"
+            android:padding="@dimen/paddingText"
+            android:text="@string/canAdapter" />
 
     </LinearLayout>
 

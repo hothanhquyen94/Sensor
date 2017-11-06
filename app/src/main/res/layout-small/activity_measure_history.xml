@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.unitec.project_panasonic.MeasureHistoryActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarHistory"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorToobar"
+        android:minHeight="?attr/actionBarSize">
+
+        <LinearLayout
+            android:id="@+id/linearBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageButton
+                android:layout_marginLeft="0dp"
+                android:id="@+id/imageBtnBack"
+                android:layout_width="30dp"
+                android:layout_height="26dp"
+                android:background="@drawable/iconback" />
+
+            <TextView
+                android:layout_gravity="center"
+                android:text="@string/back"
+                android:textSize="@dimen/sizeText"
+                android:textColor="@color/textColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ListView
+            android:id="@+id/listHistory"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </ListView>
+    </LinearLayout>
+
+</LinearLayout>

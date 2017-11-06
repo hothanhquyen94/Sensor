@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.unitec.project_panasonic.MesureActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbarMeasure"
+        android:layout_width="match_parent"
+        android:background="@color/colorToobar"
+        android:layout_height="70dp"
+        android:minHeight="?attr/actionBarSize">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:weightSum="6">
+
+            <TextView
+                android:id="@+id/backMeasure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="2"
+                android:padding="3dp"
+                android:text="@string/back"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/sizeText" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:gravity="center"
+                android:text="@string/measure"
+                android:textColor="@color/noTextColor"
+                android:textSize="@dimen/sizeText" />
+
+            <TextView
+                android:id="@+id/stopMeasure"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/layout_marginRight"
+                android:layout_weight="2"
+                android:gravity="right"
+                android:padding="3dp"
+                android:text="@string/stop"
+                android:textColor="@color/textColor"
+                android:textSize="@dimen/sizeText" />
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+    <ListView
+        android:id="@+id/listMeasure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </ListView>
+
+
+</LinearLayout>
