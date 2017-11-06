@@ -6,4 +6,5 @@
     <color name="background">#EEEEEE</color>
     <color name="textColor">#0288d1</color>
     <color name="noTextColor">#000000</color>
+    <color name="colorToobar">#C8E6C9</color>
 </resources>

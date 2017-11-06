@@ -25,7 +25,6 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     Spinner spinnerSample;
     TextView txtBack,txtSave;
     List<Integer> listSampleInterval;
-
     EditText editAdapterIp,editAdapterPort, editDataInterval;
 
     @Override
@@ -45,8 +44,7 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
     }
     // Init ToolBar
     public void initToobar() {
-        toolbar = (Toolbar) findViewById(R.id.toolbar);
-        int id ;
+        toolbar = (Toolbar) findViewById(R.id.toolbarSetting);
         txtBack = (TextView) findViewById(R.id.back);
         txtSave = (TextView) findViewById(R.id.save);
         setSupportActionBar(toolbar);
@@ -84,6 +82,8 @@ public class SettingActivity extends AppCompatActivity implements View.OnClickLi
         AdapterSpinerSampleInterval adapterSpiner = new AdapterSpinerSampleInterval(this,R.layout.custom_adapter_spiner,listSampleInterval);
         spinnerSample.setAdapter(adapterSpiner);
     }
+
+
     // set input data on Edit text
     public void InputTypeSetting(){
         editAdapterIp = (EditText) findViewById(R.id.ipAddress);

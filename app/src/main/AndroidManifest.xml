@@ -16,7 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SettingActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".MesureHistory" />
+        <activity android:name=".MesureActivity" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".MeasureHistoryActivity"></activity>
     </application>
 
 </manifest>
